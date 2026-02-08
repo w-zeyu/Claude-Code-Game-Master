@@ -26,17 +26,23 @@ A campaign imported from *Dungeon Crawler Carl*. Tandy the sasquatch rips the sk
 
 ## Getting Started
 
-**Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and Python 3.11+
+**Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 
 ```bash
-git clone https://github.com/Sstobo/Claude-Code-Game-Master.git && cd Claude-Code-Game-Master && claude
+git clone https://github.com/Sstobo/Claude-Code-Game-Master.git
+cd Claude-Code-Game-Master
+./install.sh
 ```
 
-1. Ask the agent to set up dependencies
-2. Once it's done, drop a PDF in the `source-material/` folder
+The setup script installs everything you need — Python, uv, jq, and all project dependencies. It works on macOS and Linux with zero prior setup. You can also run it from inside Claude Code by asking the agent to set things up.
+
+Once installed:
+
+1. Drop a PDF in the `source-material/` folder
+2. Run `claude` to launch Claude Code
 3. Run `/dm` and let the agent guide you
 
-That's it. The AI handles installation, world extraction, character creation, and gameplay.
+That's it. The AI handles world extraction, character creation, and gameplay.
 
 ---
 
