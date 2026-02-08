@@ -12,6 +12,18 @@ D&D 5e rules aren't really the point — they're just there to give the story st
 
 ---
 
+## In Action — Dungeon Crawler Carl
+
+A campaign imported from *Dungeon Crawler Carl*. Tandy the sasquatch rips the skin off a Terror Clown, forces Carl to wear it as a disguise, then performs a sasquatch mating dance to distract Grimaldi while Donut frees the dragon. Standard Tuesday.
+
+![Tandy acquires Terror Clown skin disguise for Carl](public/622422010_1572097020675669_3114747955156903860_n.png)
+
+![Tandy performs a sasquatch mating dance to distract Grimaldi](public/625560066_33916991331281718_1129121114640091251_n.png)
+
+![Exploring The Laughing Crypt — thirty clown bodies wake up](public/623940676_2000130920531570_2521032782764513297_n.png)
+
+---
+
 ## Getting Started
 
 **Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and Python 3.11+
