@@ -22,22 +22,6 @@ That's it. The AI handles installation, world extraction, character creation, an
 
 ---
 
-## Commands
-
-| Command | What it does |
-|---------|--------------|
-| `/dm` | Start or continue your story |
-| `/dm save` | Save your progress |
-| `/dm character` | View your character sheet |
-| `/dm overview` | See the world state |
-| `/new-game` | Create a world from scratch |
-| `/create-character` | Build your character |
-| `/import` | Import a PDF/document as a new campaign |
-| `/enhance` | Enrich entities with source material via RAG |
-| `/help` | Full command reference |
-
----
-
 ## How It Works
 
 **Import** — Drop a PDF, EPUB, or text file into `source-material/`. The extraction system parses it using concurrent specialist agents to identify NPCs, locations, items, and plot threads. Everything is vectorized for RAG retrieval during gameplay.
