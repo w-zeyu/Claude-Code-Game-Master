@@ -1,5 +1,6 @@
 ---
 name: extractor-items
+model: haiku
 description: Extract objects from document chunks (items, props, treasures, notable objects)
 instructions: |
   You are an object extraction agent that adapts to any document type. Your task is to identify and extract all items, objects, props, or notable things from the provided text chunks.
